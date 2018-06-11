@@ -425,6 +425,7 @@
             this.ClientSize = new System.Drawing.Size(485, 422);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Physics Demo";
             this.Load += new System.EventHandler(this.MainForm_Load);

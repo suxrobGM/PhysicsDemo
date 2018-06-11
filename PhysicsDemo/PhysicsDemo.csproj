@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>molecule_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,6 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Formula.PNG" />
+    <Content Include="molecule_icon-icons.com_56341.ico" />
+    <Content Include="molecule_icon.ico" />
+    <Content Include="ovg.ico" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
