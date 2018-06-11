@@ -102,13 +102,18 @@ namespace PhysicsDemo
                     {
                         MolarMass_Graph_TB.Text = MolarMass_Graph_TB.Text.Replace(".", ",");
                     }
-
                     
 
                     Int64 dT = Int64.Parse(Interval_NumUD.Value.ToString());
                     Int64 Start = Int64.Parse(Start_NumUD.Value.ToString());
                     Int64 End = Int64.Parse(End_NumUD.Value.ToString());                 
                     moleculeVelocity.MolarMass = Convert.ToDouble(MolarMass_Graph_TB.Text);
+
+                    if(Start >= End)
+                    {
+                        MessageBox.Show("Диапозон начало и конец либо совпадает либо значений начало больше чем на конец");
+                        return;
+                    }
 
                     chart1.Series[0].Points.Clear();
                     chart1.ChartAreas[0].AxisX.Minimum = Start;
