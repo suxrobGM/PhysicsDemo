@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,55 +40,54 @@
             this.Velocity_TB = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.Version_L = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.MolarMass_TB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Start_NumUD = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.End_NumUD = new System.Windows.Forms.NumericUpDown();
-            this.label10 = new System.Windows.Forms.Label();
-            this.MolarMass_Graph_TB = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.Draw_Btn = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Version_L = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.Interval_NumUD = new System.Windows.Forms.NumericUpDown();
+            this.Draw_Btn = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.MolarMass_Graph_TB = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.End_NumUD = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Start_NumUD = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Start_NumUD)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.End_NumUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Interval_NumUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.End_NumUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start_NumUD)).BeginInit();
             this.SuspendLayout();
             // 
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            chartArea6.AxisX.Title = "T, Кельвин";
-            chartArea6.AxisY.Title = "v, м/с";
-            chartArea6.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.chart1.Legends.Add(legend6);
+            chartArea1.AxisX.Title = "T, Кельвин";
+            chartArea1.AxisY.Title = "v, м/с";
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(0, 0);
             this.chart1.Name = "chart1";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            series6.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int64;
-            series6.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int64;
-            this.chart1.Series.Add(series6);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int64;
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int64;
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(477, 300);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -163,7 +162,6 @@
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Controls.Add(this.Velocity_TB);
-            this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.textBox4);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.MolarMass_TB);
@@ -176,6 +174,36 @@
             this.tabPage1.Size = new System.Drawing.Size(477, 396);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Формула";
+            // 
+            // Version_L
+            // 
+            this.Version_L.AutoSize = true;
+            this.Version_L.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Version_L.Location = new System.Drawing.Point(147, 377);
+            this.Version_L.Name = "Version_L";
+            this.Version_L.Size = new System.Drawing.Size(41, 13);
+            this.Version_L.TabIndex = 16;
+            this.Version_L.Text = "version";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label12.Location = new System.Drawing.Point(15, 377);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(126, 13);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "Developed by SuxrobGM";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(12, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Формула";
             // 
             // label4
             // 
@@ -204,16 +232,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(135, 65);
             this.panel2.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(6, -14);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 15);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Формула:";
             // 
             // textBox4
             // 
@@ -270,52 +288,70 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "График";
             // 
-            // label2
+            // label13
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(12, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Формула";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label13.Location = new System.Drawing.Point(55, 352);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(83, 13);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "Интервал dT:";
             // 
-            // Start_NumUD
+            // Interval_NumUD
             // 
-            this.Start_NumUD.Location = new System.Drawing.Point(11, 322);
-            this.Start_NumUD.Maximum = new decimal(new int[] {
-            1000000,
+            this.Interval_NumUD.Location = new System.Drawing.Point(55, 367);
+            this.Interval_NumUD.Minimum = new decimal(new int[] {
+            1,
             0,
             0,
             0});
-            this.Start_NumUD.Minimum = new decimal(new int[] {
-            273,
+            this.Interval_NumUD.Name = "Interval_NumUD";
+            this.Interval_NumUD.Size = new System.Drawing.Size(58, 20);
+            this.Interval_NumUD.TabIndex = 10;
+            this.Interval_NumUD.Value = new decimal(new int[] {
+            10,
             0,
             0,
-            -2147483648});
-            this.Start_NumUD.Name = "Start_NumUD";
-            this.Start_NumUD.Size = new System.Drawing.Size(58, 20);
-            this.Start_NumUD.TabIndex = 1;
+            0});
             // 
-            // label6
+            // Draw_Btn
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(8, 294);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 13);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Темпратура(T, Кельвин):";
+            this.Draw_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Draw_Btn.Location = new System.Drawing.Point(196, 364);
+            this.Draw_Btn.Name = "Draw_Btn";
+            this.Draw_Btn.Size = new System.Drawing.Size(87, 23);
+            this.Draw_Btn.TabIndex = 9;
+            this.Draw_Btn.Text = "Нарисовать";
+            this.Draw_Btn.UseVisualStyleBackColor = true;
+            this.Draw_Btn.Click += new System.EventHandler(this.Draw_Btn_Click);
             // 
-            // label7
+            // label11
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(11, 307);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 13);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Начало";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label11.Location = new System.Drawing.Point(79, 325);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(19, 13);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "---";
+            // 
+            // MolarMass_Graph_TB
+            // 
+            this.MolarMass_Graph_TB.Location = new System.Drawing.Point(196, 321);
+            this.MolarMass_Graph_TB.Name = "MolarMass_Graph_TB";
+            this.MolarMass_Graph_TB.Size = new System.Drawing.Size(154, 20);
+            this.MolarMass_Graph_TB.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(193, 307);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(172, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Молярная масса(u, кг/моль):";
             // 
             // label9
             // 
@@ -344,90 +380,42 @@
             this.End_NumUD.Size = new System.Drawing.Size(58, 20);
             this.End_NumUD.TabIndex = 4;
             // 
-            // label10
+            // label7
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(193, 307);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(172, 13);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Молярная масса(u, кг/моль):";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(11, 307);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Начало";
             // 
-            // MolarMass_Graph_TB
+            // label6
             // 
-            this.MolarMass_Graph_TB.Location = new System.Drawing.Point(196, 321);
-            this.MolarMass_Graph_TB.Name = "MolarMass_Graph_TB";
-            this.MolarMass_Graph_TB.Size = new System.Drawing.Size(154, 20);
-            this.MolarMass_Graph_TB.TabIndex = 7;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(8, 294);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(149, 13);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Темпратура(T, Кельвин):";
             // 
-            // label11
+            // Start_NumUD
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(79, 325);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(19, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "---";
-            // 
-            // Draw_Btn
-            // 
-            this.Draw_Btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Draw_Btn.Location = new System.Drawing.Point(196, 364);
-            this.Draw_Btn.Name = "Draw_Btn";
-            this.Draw_Btn.Size = new System.Drawing.Size(87, 23);
-            this.Draw_Btn.TabIndex = 9;
-            this.Draw_Btn.Text = "Нарисовать";
-            this.Draw_Btn.UseVisualStyleBackColor = true;
-            this.Draw_Btn.Click += new System.EventHandler(this.Draw_Btn_Click);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(15, 377);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(126, 13);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Developed by SuxrobGM";
-            // 
-            // Version_L
-            // 
-            this.Version_L.AutoSize = true;
-            this.Version_L.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Version_L.Location = new System.Drawing.Point(147, 377);
-            this.Version_L.Name = "Version_L";
-            this.Version_L.Size = new System.Drawing.Size(41, 13);
-            this.Version_L.TabIndex = 16;
-            this.Version_L.Text = "version";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(55, 352);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 13);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "Интервал dT:";
-            // 
-            // Interval_NumUD
-            // 
-            this.Interval_NumUD.Location = new System.Drawing.Point(55, 367);
-            this.Interval_NumUD.Minimum = new decimal(new int[] {
-            1,
+            this.Start_NumUD.Location = new System.Drawing.Point(11, 322);
+            this.Start_NumUD.Maximum = new decimal(new int[] {
+            1000000,
             0,
             0,
             0});
-            this.Interval_NumUD.Name = "Interval_NumUD";
-            this.Interval_NumUD.Size = new System.Drawing.Size(58, 20);
-            this.Interval_NumUD.TabIndex = 10;
-            this.Interval_NumUD.Value = new decimal(new int[] {
-            10,
+            this.Start_NumUD.Minimum = new decimal(new int[] {
+            273,
             0,
             0,
-            0});
+            -2147483648});
+            this.Start_NumUD.Name = "Start_NumUD";
+            this.Start_NumUD.Size = new System.Drawing.Size(58, 20);
+            this.Start_NumUD.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -446,9 +434,9 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Start_NumUD)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.End_NumUD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Interval_NumUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.End_NumUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start_NumUD)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -466,7 +454,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox MolarMass_TB;
         private System.Windows.Forms.Label label3;
