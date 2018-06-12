@@ -82,15 +82,7 @@ namespace PhysicsDemo
             {
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void Velocity_TB_TextChanged(object sender, EventArgs e)
-        {
-            if(Temprature_TB.Text!=String.Empty && MolarMass_TB.Text!=String.Empty && Velocity_TB.Text!=String.Empty)
-            {              
-                
-            }
-        }
+        }       
 
         private void Draw_Btn_Click(object sender, EventArgs e)
         {

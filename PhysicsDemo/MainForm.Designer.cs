@@ -213,7 +213,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(294, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Введите молярная масса молекулы(u, кг/моль)";
+            this.label4.Text = "Введите молярную массу молекулы(u, кг/моль)";
             // 
             // label5
             // 
@@ -260,9 +260,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(12, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(259, 13);
+            this.label3.Size = new System.Drawing.Size(258, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Введите темратура молекулы(T, Кельвин)";
+            this.label3.Text = "Введите темратуру молекулы(T, Кельвин)";
             // 
             // tabPage2
             // 

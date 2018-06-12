@@ -85,7 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Formula.PNG" />
-    <Content Include="molecule_icon-icons.com_56341.ico" />
     <Content Include="molecule_icon.ico" />
     <Content Include="ovg.ico" />
   </ItemGroup>
